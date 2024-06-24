@@ -2,6 +2,8 @@ module github.com/vmware/terraform-provider-vcd/v3
 
 go 1.22.3
 
+replace github.com/vmware/go-vcloud-director/v2 => github.com/nxcc/go-vcloud-director/v2 v2.25.0-alpha.14.secip
+
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/google/uuid v1.6.0
